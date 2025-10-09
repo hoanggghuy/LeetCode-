@@ -17,12 +17,3 @@ class Solution:
                     return output
             output += strs[0][i]
         return output
-
-
-
-
-if __name__ == '__main__':
-    s = Solution()
-    print(s.longestCommonPrefix2(["flower","flow","flight"]))
-    print(s.longestCommonPrefix2(["dog","racecar","car"]))
-    print(s.longestCommonPrefix2([""]))
