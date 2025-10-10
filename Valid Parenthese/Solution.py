@@ -8,6 +8,14 @@ class Solution:
             "]": "[",
         }
         stack = []
+        list1 =[]
+        list2 =[]
+        for i in range(len(s)):
+            if s[i] in open:
+                list1.append(s[i])
+            if s[i] in close:
+                list2.append(s[i])
+        if len(list1) != len(list2): return False
         if len(s) % 2 == 1: return False
         if s[0] in close or (s[0] in open and s[len(s)-1] in open): return False
         for i in range(len(s)):
