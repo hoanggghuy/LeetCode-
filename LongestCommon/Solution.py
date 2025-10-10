@@ -17,3 +17,6 @@ class Solution:
                     return output
             output += strs[0][i]
         return output
+if __name__ == '__main__':
+    s = Solution()
+    print(s.longestCommonPrefix(["flower","flow","flight"]))
