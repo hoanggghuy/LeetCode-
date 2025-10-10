@@ -18,6 +18,7 @@ class Solution:
                     return False
         if len(stack) == 0: return True
 
+
     def isValid2(self, s: str) -> bool:
         stack = []
         close2open = {")": "(", "]": "[", "}" : "{"}
