@@ -2,3 +2,5 @@ Day6:
 +list1 =[1,2,3] khong phai la list cac int ma la list cac ListNode trong bai toan LinkList
 + a=10 thi 10 se duoc luu trong memory con a chi la ten ben va thuc ra dia chi ma 10 duoc luu.
 + b=a thi thuc chat la sao chep dia chia cua a
+Day7: Remove Dupiclate
++ Dung 2 con tro l,r thi se nhanh hon rat nhieu

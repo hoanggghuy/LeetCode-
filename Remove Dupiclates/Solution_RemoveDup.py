@@ -13,18 +13,25 @@ class Solution:
                 break
         return nums,k
     def removeDuplicates2(self, nums: list[int]) :
-        k=1
-        l=0
+        l=1
         r=1
-        while l <len(nums) and r < len(nums) :
+        if not nums :
+            return 0
+        while r < len(nums) :
             if nums[l] < nums[r]:
                 nums[l+1] = nums[r]
                 l+=1
                 r+=1
-                k+=1
             else:
                 r +=1
-        return nums,k
+        return nums,l
+    def removeDuplicates3(self, nums: list[int]) :
+        l = 1
+        for r in range(1,len(nums)):
+            if nums[r] != nums[l-1]:
+                nums[l] = nums[r]
+                l+=1
+        return l,nums
 
 
 
