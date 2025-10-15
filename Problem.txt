@@ -6,3 +6,5 @@ Day7: Remove Dupiclate
 + Dung 2 con tro l,r thi se nhanh hon rat nhieu
 Day8: Remove Element:
 + Van la dung 2 con tro l,r de dua het val ve cuoi cua list
+Day9: IndexOfTheFirstOccurrence
++ Doi khi co the tim truoc so lan lap voi bai toan tim diem tuong dong cua 2 str
