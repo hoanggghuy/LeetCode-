@@ -19,4 +19,4 @@ if __name__ == '__main__':
     s = Solution()
 
     print(s.searchInsert([1,3,5,7], 8))
-    print(s.searchInsert([1,3,5,7,9], 4))
+    print(s.searchInsert([1,3,5,7,9], 6))

@@ -8,3 +8,5 @@ Day8: Remove Element:
 + Van la dung 2 con tro l,r de dua het val ve cuoi cua list
 Day9: IndexOfTheFirstOccurrence
 + Doi khi co the tim truoc so lan lap voi bai toan tim diem tuong dong cua 2 str
+Day10: BinarySearch
++ Tao 2 con cho l=0 , r= len -1 khi do mid = l+r // 2
