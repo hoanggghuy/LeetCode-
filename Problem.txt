@@ -10,3 +10,5 @@ Day9: IndexOfTheFirstOccurrence
 + Doi khi co the tim truoc so lan lap voi bai toan tim diem tuong dong cua 2 str
 Day10: BinarySearch
 + Tao 2 con cho l=0 , r= len -1 khi do mid = l+r // 2
+Day12: Plus one
++ for i in range(len,-1,-1) bat dau tu cuoi va giam dan

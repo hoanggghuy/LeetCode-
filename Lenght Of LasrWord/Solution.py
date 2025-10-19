@@ -9,10 +9,18 @@ class Solution:
         if b : return c-b[-1] - 1
         else:
             return c
+    def lengthOfLastWord2(self, s: str) -> int:
+        end = len(s) - 1
+        while s[end] == ' ':
+            end -= 1
+        start = end
+        while s[start] != ' ' and start >= 0:
+            start -= 1
+        return end - start
 
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.lengthOfLastWord("hello world"))
-    print(s.lengthOfLastWord("   fly me   to   the moon  "))
-    print(s.lengthOfLastWord("world"))
+    # print(s.lengthOfLastWord2("hello world"))
+    # print(s.lengthOfLastWord2("   fly me   to   the moon  "))
+    print(s.lengthOfLastWord2("world"))
