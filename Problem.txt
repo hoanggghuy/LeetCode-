@@ -12,3 +12,5 @@ Day10: BinarySearch
 + Tao 2 con cho l=0 , r= len -1 khi do mid = l+r // 2
 Day12: Plus one
 + for i in range(len,-1,-1) bat dau tu cuoi va giam dan
+Day13: Add binary
++ Cong nhi phan bit = a[i] + b[i] + carry % 2, carry = a[i] + b[i] + carry // 2
